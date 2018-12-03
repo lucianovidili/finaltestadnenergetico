@@ -1,0 +1,168 @@
+html {
+    visibility: hidden;
+}
+
+body {
+    background-color: white;
+}
+
+.divBig {
+    width: 50%;
+    float: left;
+}
+
+.divSmall {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+#pCartaBaziTitle {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin: 0 20px 0 20px;
+}
+
+#divTitleContainer {
+    margin-top: 4px;
+}
+
+#pExpCartaBazi, .animalExplanation {
+    font-family: 'Arial', cursive;
+    font-size: 15px;
+}
+
+#pDoceSignos {
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+}
+
+.pAnimal {
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    text-align: justify;
+}
+
+article, #pExpCartaBazi {
+    margin: 20px 20px 50px 20px;
+}
+
+#lastArticle {
+    margin-bottom: 0;
+}
+
+#aVolver {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+#aVolver:hover {
+    color: #0645AD;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#divEscudos {
+    display: table-cell;
+    text-align: center;
+}
+
+/*****************RESPONSIVE WEB******************/
+@media (max-width: 989px) {
+/*CELULARES*/
+    #pCartaBaziTitle {
+        font-size: 55px;
+    }
+
+    #pDoceSignos {
+        font-size: 50px;
+    }
+    
+    #pExpCartaBazi, .animalExplanation {
+        font-size: 24px;
+    }
+    
+    .pAnimal {
+        font-size: 60px;
+    }
+
+    img {
+        width: 220px;       /*500px original*/
+        height: 220px;      /*500px original*/
+        margin-right: 11px;
+    }
+
+    #divExplanations {
+        width: 75%;
+    }
+    
+    #divEscudos {
+        width: 25%;
+        margin-top: 11px;
+    }
+
+    #aVolver {
+        font-size: 35px;
+        color: #0645AD;
+    }
+}
+
+@media (min-width: 990px) {
+/*TABLETS*/
+    img {
+        width: 290px;
+        height: 290px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    
+    #divExplanations {
+        width: 70%;
+    }
+    
+    #divEscudos {
+        width: 30%;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1100px) {
+/*NOTEBOOKS*/
+    img {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 15px;
+    }
+        
+    #divExplanations {
+        width: 65%;
+    }
+        
+    #divEscudos {
+        width: 35%;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 1400px) {
+/*MONITORES*/
+    img {
+        width: 550px;       /*500px original*/
+        height: 550px;      /*500px original*/
+        margin-bottom: 20px;
+    }
+
+    #divExplanations {
+        width: 60%;
+    }
+    
+    #divEscudos {
+        width: 40%;
+        margin-top: 15px;
+    }
+}

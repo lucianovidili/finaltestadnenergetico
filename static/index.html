@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Carta Bazi</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Lobster" rel="stylesheet">
+    <script src="scripts/script.js" async></script>
+  </head>
+  <body>
+  <div class="container">
+  <div id="divContainerAll">
+    
+    <div class="c1">
+      <div class="divBig">
+        <div class="divSmall">
+          <img src="images/biodisenio.png" alt="Imagen del logo de biodiseño" id="imgBiodiseño">
+        </div>
+      </div>
+      <p id="pTitle"><a href="links/pilares/pilares.html" id="aTitle">Carta Bazi:</a> Cálculo de los Cuatro Pilares</p>
+    </div>
+    
+    <div id="divFechaNac" class="c2">
+      <label id="labelFechaNac">Fecha de nacimiento:</label>
+      <select class="despList" id="despDiaNac"></select>
+      <select class="despList" id="despMesNac"></select>
+      <select class="despList" id="despAnoNac"></select>
+    </div>
+    <div id="divHoraNac" class="c3">
+      <label id="labelHoraNac">Hora de nacimiento:</label>
+      <select class="despList" id="despHoraNac"></select>
+      <label for="despMinutosNac">Minutos:</label>
+      <select class="despList" id="despMinutosNac"></select>
+    </div>
+        
+    <div class="c4">
+      <p id="pDateInvalid"></p>
+      <div class="divBig" id="divBtnContainer">
+        <div class="divSmall">
+          <button id="btnCalcular">Calcular</button>
+        </div>
+        <div class="divSmall">
+          <button id="btnR">R</button>
+        </div>
+      </div>
+    </div>
+
+    <table id="tableAnimales">
+      <tr id="aPilaresRow">
+        <td>
+          <a href="links/pilares/pilares.html" class="aPilares" id="aEnvoltura">Envoltura</a>
+        </td>
+        <td>
+          <a href="links/pilares/pilares.html" class="aPilares" id="aTronco">Tronco</a>
+        </td>
+        <td>
+          <a href="links/pilares/pilares.html" class="aPilares" id="aDefensa">Defensa</a>
+        </td>
+        <td>
+          <a href="links/pilares/pilares.html" class="aPilares" id="aPoder">Poder</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img id="imgEnvoltura" alt="Imagen de la Envoltura" class="imgAnimal">
+        </td>
+        <td>
+          <img id="imgTronco" alt="Imagen del Tronco" class="imgAnimal">
+        </td>
+        <td>
+          <img id="imgDefensa" alt="Imagen de la Defensa" class="imgAnimal">
+        </td>
+        <td>
+          <img id="imgPoder" alt="Imagen del Poder" class="imgAnimal">
+        </td>
+      </tr>
+      <tr id="aAnimalsRow">
+        <td>
+          <a href="links/animales/animales.html" id="pEnvoltura" class="pClass"></a>
+        </td>
+        <td>
+          <a href="links/animales/animales.html" id="pTronco" class="pClass"></a>
+        </td>
+        <td>
+          <a href="links/animales/animales.html" id="pDefensa" class="pClass"></a>
+        </td>
+        <td>
+          <a href="links/animales/animales.html" id="pPoder" class="pClass"></a>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  <img src="images/papel-tapiz/fondo-verde-general.jpg" style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;' id="imgDeFondo">
+  </body>
+</html>

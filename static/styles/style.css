@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+}
+
+#imgBiodiseño {
+    margin-top: 20px;
+    width: 220px;    /*175px ORIGINAL*/
+    height: 220px;   /*175px ORIGINAL*/
+}
+
+#pTitle, #aTitle {
+    text-align: center;
+    margin: 25px auto 0 auto;
+    padding: 5px 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#pDateInvalid {
+    text-align: center;
+    font-family: 'Arial', cursive;
+    font-size: 13px;
+    width: 1140px;
+    height: 14px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    background-color: pink;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    visibility: hidden;
+}
+
+#btnCalcular {
+    padding: 0 15px;
+    font-size: 30px;
+    border-radius: 8px;
+    width: 1120px;
+}
+
+#btnR {
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+button {
+    display: block;
+    margin: 5px auto 25px auto;
+    background-color: #93c021;
+    color: white;
+    border-color: #93c021;
+    font-family: 'Lobster', cursive;
+    outline: none;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #b1c44c;
+}
+
+#tableAnimales {
+    width: 1141px;      /*Mismo ancho que la suma de los dos botones, "fecha mal ingresada" y la fila para ingresar los datos.*/
+    margin: 23px auto 0 auto;
+}
+
+.imgAnimal {
+    display: block;
+    margin: auto;
+    padding: 0;
+    width: 285px;       /*300px ORIGINAL MARRON*/  /*1214px ORIGINAL VERDE*/
+    height: 260px;      /*215px aprox (varia segun el animal) ORIGINAL MARRON*/  /*697px ORIGINA VERDE*/
+    visibility: hidden;
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+#divFechaNac {
+    margin-top: 30px;
+}
+
+#divHoraNac {
+    margin-top: 30px;
+}
+
+.pClass, label, a {
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: 'black';
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #0645AD;
+    text-decoration: underline;
+}
+
+input {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    width: 150px;
+}
+
+#pFullHourInvalid {
+    text-align: left;
+}
+
+.despList {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    margin-bottom: 4px;
+    height: 33px;
+}
+
+#despDiaNac, #despHoraNac, #despMinutosNac {
+    width: 107px;
+}
+
+#despMesNac {
+    width: 200px;
+}
+
+#despAnoNac {
+    width: 130px;
+}
+
+.imgAnimal:hover, .pClass:hover {
+    cursor: pointer;
+}
+
+.aPilares {
+    visibility: hidden;
+}
+
+#aAnimalsRow {
+    height: 80px;
+}
+
+.divBig {
+    text-align: center;
+}
+
+.divSmall {
+    display: inline-block;
+}
+
+#divContainerAll {
+    margin: 0 auto;
+    background-color: white;
+    width: 1300px;
+    /*height: 100vh;*/
+    height: 969px;
+    box-shadow: 2px -2px 10px -5px grey, 5px 2px 10px -5px grey, 0 0 0 0 grey, -1px -1px 10px -40px grey;
+}
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+  
+.c1, .c2, .c3, .c4, .c5 {
+    width: 100%;
+}
+  
+/*@media (min-width: 600px) {
+    .c2, .c3, .c4, .c5 {
+      width: 50%;
+    }
+}*/
+
+/*****************RESPONSIVE WEB******************/
+@media (max-width: 1099px) { /*989px: Tamaño del celular samsung S5*/
+/*CELULARES y TABLETS*/
+
+    #divContainerAll {
+        height: 1720px;
+    }
+
+    #imgBiodiseño {
+        transform: scale(2,2);
+        margin-top: 225px;
+    }
+    
+    #pTitle, #aTitle {
+        font-size: 55px;
+        margin-top: 150px;
+    }
+
+    #aTitle {
+        color: #0645AD;
+    }
+
+    #labelFechaNac, #labelHoraNac {
+        margin-left: 32px;
+    }
+
+    label {
+        font-size: 60px;
+    }
+
+    #divFechaNac {
+        margin-top: 60px;
+    }
+
+    .despList {
+        font-size: 40px;
+        height: 66px;
+    }
+
+    #despDiaNac, #despHoraNac, #despMinutosNac {
+        width: 159px;
+    }
+
+    #despMesNac {
+        width: 299px;
+    }
+
+    #despAnoNac {
+        width: 192px;
+    }
+
+    #pDateInvalid {
+        font-size: 33px;
+        width: 1080px;
+        height: 35px;
+        margin-top: 2px;
+    }
+
+    #btnCalcular {
+        font-size: 60px;
+        width: 1050px;
+        margin-top: 9px;
+        margin-bottom: 55px;
+    }
+
+    #btnR {
+        border-radius: 50%;
+        font-size: 50px;
+        margin-top: 9px;
+        margin-bottom: 55px;
+    }
+
+    .pClass, .aPilares {
+        font-size: 62px;
+    }
+
+    .imgAnimal {
+        margin-bottom: 16px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1100px) {
+/*NOTEBOOKS y MONITORES*/
+
+    #divContainerAll {
+        height: 969px;
+    }
+
+    .c1 {
+        width: 100%;
+    }
+    .c2 {
+        width: 50%;
+        margin-left: 73px;
+        display: inline-block;
+    }
+    .c3 {
+        width: 40%;
+        margin-left: 16px;
+        display: inline-block;
+    }
+    .c4 {
+        width: 100%;
+    }
+    .container {
+      width: 1300px;        /*Tamaño para que se vea en la notebook y en el monitor.*/
+      margin-left: auto;
+      margin-right: auto;
+    }
+}

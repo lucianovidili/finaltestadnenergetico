@@ -1,0 +1,146 @@
+html {
+    visibility: hidden;
+}
+
+body {
+    background-color: white;
+}
+
+.divBig {
+    width: 50%;
+    float: left;
+}
+
+.divSmall {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#pCartaBaziTitle {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin: 5px 20px 0 20px;
+}
+
+#pExpCartaBazi, .pilarExplanation {
+    font-family: 'Arial', cursive;
+    font-size: 15px;
+}
+
+#pLosCuatroPilares {
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+}
+
+.pilarTitle {
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    text-align: justify;
+}
+
+article, #pExpCartaBazi {
+    margin: 20px 20px 50px 20px;
+}
+
+#lastArticle {
+    margin-bottom: 0;
+}
+
+#aVolver {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+#aVolver:hover {
+    color: #0645AD;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*****************RESPONSIVE WEB******************/
+@media (max-width: 989px) {
+/*CELULARES*/
+    #pCartaBaziTitle {
+        font-size: 55px;
+    }
+
+    #pLosCuatroPilares {
+        font-size: 50px;
+    }
+    
+    #pExpCartaBazi, .pilarExplanation {
+        font-size: 24px;
+    }
+    
+    .pilarTitle {
+        font-size: 60px;
+    }
+
+    #divExplanations {
+        width: 75%
+    }
+
+    #divAnimales {
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    #aVolver {
+        font-size: 35px;
+        color: #0645AD;
+    }
+}
+
+@media (min-width: 990px) {
+/*TABLETS*/
+    /*img {
+        width: 162px;       /*225px/*300px / ORIGINAL MARRON*/  /*1214px ORIGINAL VERDE
+        height: 145px;      /*215px aprox / (varia segun el animal) ORIGINAL MARRON*/  /*697px ORIGINA VERDE
+    }*/
+
+    #divExplanations {
+        width: 65%
+    }
+
+    #divAnimales {
+        width: 35%;
+    }
+}
+
+@media (min-width: 1100px) {
+/*NOTEBOOKS*/
+    /*img {
+        width:  214px;
+        height: 185px;
+    }*/
+    
+    #divExplanations {
+        width: 50%
+    }
+
+    #divAnimales {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1400px) {
+/*MONITORES*/
+    /*img {
+        width:  234px;
+        height: 222px;
+    }*/
+        
+    #divExplanations {
+        width: 50%
+    }
+
+    #divAnimales {
+        width: 50%;
+    }
+}
